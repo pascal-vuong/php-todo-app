@@ -1,0 +1,78 @@
+:root {
+    --bg-color: #f0f2f5;
+    --main-color: #27ae60;
+    --hover-color: #1e8449;
+    --text-color: #2c3e50;
+    --second-text-color: #7f8c8d;
+    --white-color: #fff;
+    --border-radius: 0.625rem; /* ~10px */
+    --box-shadow: 0 0 0.6rem rgba(0, 0, 0, .15);
+    --input-border: 1px solid #ccc;
+    --max-container-width: 20rem; /* ~320px */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body centered */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-size: 1rem; /* base = 16px */
+}
+
+/* Shared container style */
+.form-container {
+    background: var(--white-color);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    width: 90%;                
+    max-width: var(--max-container-width);
+    text-align: center;
+}
+
+/* Title */
+.form-container h2 {
+    margin-bottom: 1.25rem; /* ~20px */
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+/* Input fields */
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container input[type="email"] {
+    width: 100%;
+    padding: 0.625rem;
+    margin: 0.5rem 0;
+    border: var(--input-border);
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+}
+
+/* Button */
+.form-container button {
+    width: 100%;
+    padding: 0.5em 1em;
+    margin-top: 0.625rem;
+    background: var(--main-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-size: 1rem;
+}
+
+.form-container button:hover {
+    background: var(--hover-color);
+}
