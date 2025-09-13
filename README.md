@@ -16,6 +16,7 @@ This project demonstrates **user authentication** (register, login, logout) and 
 - Clean separation of PHP logic and HTML templates
 - Secure prepared statements for database queries
 - Post/Redirect/Get pattern to prevent duplicate submissions
+- CSS using custom properties with consistent measurement rules (rem, %, px, em)
 
 ---
 
