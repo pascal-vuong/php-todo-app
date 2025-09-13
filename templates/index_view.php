@@ -8,7 +8,7 @@
     <a href="logout.php">Logout</a>
 
     <h3>Add a new task</h3>
-    <form method="post">
+    <form method="post" action="index.php">
         <input type="text" name="task" required>
         <button type="submit">Add Task</button>
     </form>
@@ -35,4 +35,5 @@
         <?php endforeach; ?>
     </ul>
 </body>
+
 </html>
