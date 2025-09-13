@@ -23,7 +23,7 @@ This project demonstrates **user authentication** (register, login, logout) and 
 ## 📂 Folder Structure
 ```
 todo_app/
-├── assets/                 # (Optional: CSS, JS, images)
+├── assets/                 # (CSS, JS, images)
 │   └── style.css
 ├── templates/              # HTML templates for views
 │   ├── index_view.php      # Dashboard view
