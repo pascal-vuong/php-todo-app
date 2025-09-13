@@ -2,9 +2,6 @@
 session_start();
 require 'db_connect.php';
 
-// Debug (optional)
-// var_dump($_SESSION);
-
 // Redirect if not logged in
 if (!isset($_SESSION["user_id"])) {
     header("Location: login.php");
@@ -29,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["task"])) {
     }
 }
 
-// Optional: show message if redirected after adding
+// Show message if redirected after adding
 if (isset($_GET["added"])) {
     $message = "✅ Task added successfully!";
 }
@@ -78,3 +75,4 @@ $tasks = $stmt->fetchAll();
 include 'templates/index_view.php';
 
 ?>
+
