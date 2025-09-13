@@ -6,7 +6,7 @@
 <body>
     <h2>Login</h2>
     
-    <form method="post">
+    <form method="post" action="login.php">
         Username: <input type="text" name="username" required><br><br>
         Password: <input type="password" name="password" required><br><br>
         <button type="submit">Login</button>
@@ -14,4 +14,5 @@
 
     <p><?php echo $message; ?></p>
 </body>
+
 </html>
