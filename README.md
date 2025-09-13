@@ -111,3 +111,27 @@ CREATE TABLE tasks (
 - Add **task editing** to allow updating existing task descriptions  
 
 ---
+
+## 📏 CSS Measurement Rules for This Project
+
+- **`rem` → for**  
+  - Font sizes  
+  - Padding & margins  
+  - Card widths / component widths  
+  - Border-radius (curves, rounded corners)  
+  - Shadows blur/spread values  
+
+- **`%` → for**  
+  - Container widths (e.g., `width: 90%`)  
+  - Flexible layouts  
+  - Used together with `max-width` in `rem` for responsiveness  
+
+- **`px` → for**  
+  - Borders (`1px solid …`)  
+  - Thin dividers  
+  - Shadow offsets (when you want crispness that shouldn’t scale)  
+
+- **`em` → for**  
+  - Button padding (`padding: 0.5em 1em`)  
+  - Text-related spacing inside components  
+  - Ensures button sizing adapts if text size changes
