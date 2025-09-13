@@ -135,3 +135,13 @@ CREATE TABLE tasks (
   - Button padding (`padding: 0.5em 1em`)  
   - Text-related spacing inside components  
   - Ensures button sizing adapts if text size changes
+
+## 📈 Progression Log
+
+- **2025-09-12** – Initial version of the project completed  
+  (full PHP To-Do app with authentication, CRUD, separation of logic & templates)  
+
+- **2025-09-13** – Styled `register_form.php` and `login_form.php` using CSS custom properties with consistent measurement rules (rem, %, px, em)  
+
+---
+
