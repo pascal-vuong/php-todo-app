@@ -104,9 +104,6 @@ CREATE TABLE tasks (
 - How to use the **Post/Redirect/Get pattern** to prevent duplicate form submissions.
 - How to structure a PHP project by separating **logic and templates**.
 - How to style forms and dashboards consistently with **CSS custom properties**.
-- How to design a flexible layout that prevents **content clipping on overflow**.
-- How to display **success/error messages** cleanly between sections.
-- How to create a **bulletin board style task list** with action links.
 
 ---
 
