@@ -144,5 +144,14 @@ CREATE TABLE tasks (
 
 - **2025-09-13** – Styled `register_form.php` and `login_form.php` using CSS custom properties with consistent measurement rules (rem, %, px, em)  
 
+- **2025-09-14** – Refactored `index_view.php` into a card layout matching the login/register style.  
+  Added structured sections (`dashboard-header`, `task-form`, `task-list`, `logout-footer`).  
+  Introduced `.message-box` for success/error messages placed between the add-task form and the task list.  
+  Updated `style.css` with:  
+  - bulletin board style for tasks (border, background, spacing, actions under each task)  
+  - relocated logout link to bottom with spacing  
+  - flexible page layout (`align-items: flex-start`, `min-height: 100vh`) to prevent header clipping when many tasks are added  
+  - success message styling with green border/background
+
 ---
 
