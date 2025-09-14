@@ -108,7 +108,7 @@ CREATE TABLE tasks (
 ---
 
 ## 🔮 Upcoming Improvements
-- Add **styling** with `style.css` for a more polished UI (**✅ 14/09/2025**)
+- Add **styling** with `style.css` for a more polished UI (**✅ Completed 14/09/2025**)
 - Implement **undo for completed tasks** (mark tasks back to “pending”)  
 - Add **task editing** to allow updating existing task descriptions  
 
