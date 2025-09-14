@@ -99,15 +99,19 @@ CREATE TABLE tasks (
 ---
 
 ## 📚 What I Learned
-- How to implement authentication with **sessions** and **password hashing**.  
-- How to build a secure CRUD app with **PDO + prepared statements**.  
-- How to use the **Post/Redirect/Get pattern** to prevent duplicate form submissions.  
-- How to structure a PHP project by separating **logic and templates**.  
+- How to implement authentication with **sessions** and **password hashing**.
+- How to build a secure CRUD app with **PDO + prepared statements**.
+- How to use the **Post/Redirect/Get pattern** to prevent duplicate form submissions.
+- How to structure a PHP project by separating **logic and templates**.
+- How to style forms and dashboards consistently with **CSS custom properties**.
+- How to design a flexible layout that prevents **content clipping on overflow**.
+- How to display **success/error messages** cleanly between sections.
+- How to create a **bulletin board style task list** with action links.
 
 ---
 
 ## 🔮 Upcoming Improvements
-- Add **styling** with `style.css` for a more polished UI  
+- Add **styling** with `style.css` for a more polished UI ✅
 - Implement **undo for completed tasks** (mark tasks back to “pending”)  
 - Add **task editing** to allow updating existing task descriptions  
 
