@@ -155,4 +155,3 @@ CREATE TABLE tasks (
   - success message styling with green border/background
 
 ---
-
