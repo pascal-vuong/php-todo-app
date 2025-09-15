@@ -45,10 +45,12 @@ todo_app/
 You can set up the database in two ways:
 
 ### Option 1: Import SQL file
-1. Open **phpMyAdmin**.  
-2. Go to the **Import** tab.  
-3. Select the `todo_app.sql` file included in this repo.  
-4. Click **Go** → database and tables will be created automatically.  
+1. Open **phpMyAdmin**.
+2. In the left sidebar click **New** to create a database.
+3. Make sure its selected.  
+4. Go to the **Import** tab.  
+5. Select the `todo_app.sql` file included in this repo.  
+6. Click **Go** → database and tables will be created automatically.  
 
 ### Option 2: Run SQL manually
 ```sql
