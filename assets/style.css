@@ -169,3 +169,11 @@ body {
     text-align: center;
 }
 
+.feedback {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: var(--border-radius);
+    font-size: 0.9rem;
+}
+
+
