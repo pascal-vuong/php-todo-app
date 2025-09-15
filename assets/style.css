@@ -95,7 +95,7 @@ body {
     border: 1px solid #ddd;
     border-radius: var(--border-radius);
     padding: 1rem;
-    background: #fafafa; /* light background so it stands out */
+    background: #fafafa;
     text-align: left;
 }
 
@@ -161,10 +161,11 @@ body {
 .message-box {
     margin: 2rem 0; 
     padding: 0.5rem;
-    background: #eafaf1; /* light green background */
+    background: #eafaf1;
     border: 1px solid var(--main-color);
     border-radius: var(--border-radius);
     font-size: 0.9rem;
     color: var(--main-color);
     text-align: center;
 }
+
