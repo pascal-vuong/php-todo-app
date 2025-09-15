@@ -141,7 +141,6 @@ CREATE TABLE tasks (
   - Ensures button sizing adapts if text size changes
 
 ## 📈 Progression Log
-
 - **2025-09-12** – Initial version of the project completed  
   (full PHP To-Do app with authentication, CRUD, separation of logic & templates)  
 
@@ -156,4 +155,5 @@ CREATE TABLE tasks (
   - flexible page layout (`align-items: flex-start`, `min-height: 100vh`) to prevent header clipping when many tasks are added  
   - success message styling with green border/background
 
+- **2025-09-15** – Updated login/register forms and aligned success/error messages with the design system.
 ---
