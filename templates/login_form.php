@@ -9,6 +9,10 @@
 <div class="form-container">
     
     <h2>Login</h2>
+
+        <p class="feedback">
+            <?php echo $message; ?>
+        </p>
     
     <form method="post" action="login.php">
         Username: <input type="text" name="username" required><br><br>
@@ -18,8 +22,7 @@
 
 </div>
 
-    <p><?php echo $message; ?></p>
-
 </body>
 
 </html>
+
